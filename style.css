@@ -1,0 +1,59 @@
+/* Style général pour le corps */
+body {
+    font-family: Arial, sans-serif;
+        margin: 0;
+            padding: 0;
+                display: flex;
+                    justify-content: center;
+                        align-items: center;
+                            min-height: 100vh;
+                                background-color: #f3f4f6;
+                                }
+
+                                /* Conteneur principal */
+                                .container {
+                                    text-align: center;
+                                        background: #ffffff;
+                                            padding: 20px;
+                                                border-radius: 12px;
+                                                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                                                        max-width: 400px;
+                                                            width: 90%;
+                                                            }
+
+                                                            /* Titre */
+                                                            h1 {
+                                                                font-size: 24px;
+                                                                    color: #333;
+                                                                        margin-bottom: 20px;
+                                                                        }
+
+                                                                        /* Style des boutons */
+                                                                        button {
+                                                                            background-color: #4CAF50;
+                                                                                color: white;
+                                                                                    border: none;
+                                                                                        border-radius: 8px;
+                                                                                            padding: 12px 24px;
+                                                                                                font-size: 16px;
+                                                                                                    margin: 10px;
+                                                                                                        cursor: pointer;
+                                                                                                            transition: all 0.3s ease;
+                                                                                                                width: 100%;
+                                                                                                                }
+
+                                                                                                                button:hover {
+                                                                                                                    background-color: #45a049;
+                                                                                                                    }
+
+                                                                                                                    button:active {
+                                                                                                                        transform: scale(0.98);
+                                                                                                                        }
+
+                                                                                                                        button#stop {
+                                                                                                                            background-color: #f44336;
+                                                                                                                            }
+
+                                                                                                                            button#stop:hover {
+                                                                                                                                background-color: #e53935;
+                                                                                                                                }
